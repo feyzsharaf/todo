@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>just simple, doesn't have fancy stuff</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+        <nav>
+            <div class="flex-container">
+                <p class="title">TO-DO</p>
+                <p class="js-date"></p>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="main">
+            <div class="main-title">
+                Are u gonna make it, anon?
+            </div>
+            <div class="input-flex">
+                <input class="js-input" type="text" placeholder="do your tasks..." onkeydown="toggleKey(event)">
+                <button class="add-button" onclick="addToDo()">Add</button>
+            </div>
+        </div>
+        <div class="todo-table">
+
+        </div>
+    </main>
+    <footer></footer>
+  </body>
+  <script src="scripts/main.js"></script>
+</html>
