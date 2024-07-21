@@ -33,12 +33,13 @@ button {
 .input-flex {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 12px;
     margin-bottom: 10px;
 }
 
 .js-input {
     height: 35px;
+    width: 320px;
 }
 
 .add-button {
@@ -52,15 +53,24 @@ button {
 }
 
 .todo-table {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 315px 90px; 
     align-items: center;
     justify-content: center;
-    text-align: center;
+    row-gap: 15px;
+    column-gap: 25px;
 }
 
 .todo-paragraph {
-    margin: 0;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    word-break: break-word;
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 10px;
+    width: 90px;
+    height: 41px;
 }
